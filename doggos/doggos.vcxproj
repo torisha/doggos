@@ -115,6 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChihFactory.cpp" />
+    <ClCompile Include="Doggos.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="LabFactory.cpp" />
+    <ClCompile Include="Labrador.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chih.h" />
+    <ClInclude Include="ChihFactory.h" />
+    <ClInclude Include="Doggos.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="LabFactory.h" />
+    <ClInclude Include="Labrador.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
