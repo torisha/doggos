@@ -1,4 +1,0 @@
-#include "LabFactory.h"
-
-
-

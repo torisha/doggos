@@ -5,6 +5,6 @@
 class Chih :public Doggo
 {
 public:
-	void breed() override { cout << "Chihuahua!\n\n"; }
+	void breed() override { cout << "\n\nChihuahua!\n\n"; }
 	
 };

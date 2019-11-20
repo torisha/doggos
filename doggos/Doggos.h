@@ -15,9 +15,16 @@ public:
 	Doggo() : name(""), color(""), size("") {}
 	virtual ~Doggo() {}
 
-	virtual void breed() = 0;
+	virtual void modify(int ch, string inf);
+	
 	virtual void set_inf();
 	virtual void show_inf();
+	virtual void write_inf(int cnt, string file);
+	virtual void read_inf(int cnt);
+
+	
+	virtual void breed() = 0;
+
 
 	void SetNam(string nam) { name = nam; }
 	void SetCol(string col) { color = col; }
